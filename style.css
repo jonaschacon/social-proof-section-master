@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+  /* Primary */
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+
+  /* Neutral */
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Font */
+  --league-spartan: "League Spartan";
+}
+
+* {
+  padding: 0px;
+  margin: 0x;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: calc(1em + 0.5rem);
+}
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
