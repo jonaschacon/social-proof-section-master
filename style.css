@@ -16,12 +16,97 @@
 
 * {
   padding: 0px;
-  margin: 0x;
+  margin: 0px;
   box-sizing: border-box;
+  font-family: var(--league-spartan), sans-serif;
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   line-height: calc(1em + 0.5rem);
+  min-height: 100vh;
+  background-color: var(--light-grayish-magenta);
+
+  font-size: 1.1rem;
+}
+
+.rating-item {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  text-align: center;
+  padding: 80px 10px;
+  max-width: 420px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  gap: 20px;
+
+  background-color: var(--very-dark-magenta);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.profile-info p:first-child {
+  font-weight: bold;
+  color: white;
+}
+
+.profile-info p:last-child {
+  color: var(--soft-pink);
+}
+
+.card > p {
+  color: white;
+  font-weight: 500;
+}
+
+.card img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.text p {
+  color: var(--dark-grayish-magenta);
+}
+
+h1 {
+  color: var(--very-dark-magenta);
+}
+
+div.ratings p {
+  color: var(--very-dark-magenta);
+  font-weight: bold;
 }
 
 .attribution {
